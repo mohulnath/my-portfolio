@@ -314,7 +314,7 @@ export default function Contact() {
           font-weight:600;
         }
         @media (max-width:768px) {
-          .ct-grid { grid-template-columns:1fr; gap:36px; padding:0 20px; }
+          .ct-grid { grid-template-columns:1fr; gap:36px; padding:0px; }
           .ct-form-row { grid-template-columns:1fr; }
           .ct-footer { padding:28px 20px 0; }
         }
@@ -395,7 +395,7 @@ export default function Contact() {
                 <label>Your Name</label>
                 <input
                   className={`ct-input ${errors.name ? "err" : ""}`}
-                  name="name" placeholder="Mohulnath R"
+                  name="name" placeholder="Enter your name"
                   value={form.name} onChange={handleChange}
                 />
                 {errors.name && <span className="ct-error">{errors.name}</span>}

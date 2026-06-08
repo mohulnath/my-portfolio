@@ -890,7 +890,7 @@ export default function Projects() {
         /* ── Responsive ── */
         @media (max-width: 960px) {
           .ps-grid { grid-template-columns: repeat(2, 1fr); }
-          .ps-inner { padding: 0 24px; }
+          .ps-inner { padding: 0 40px; }
           .ps-bar { gap: 0; }
           .ps-item { padding: 18px 12px; }
           .ps-num { font-size: 22px; }

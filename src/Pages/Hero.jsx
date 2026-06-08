@@ -573,6 +573,8 @@ export default function Hero() {
             gap: 40px;
             padding: 100px 24px 60px;
           }
+            .scroll-hint.anim-in{display: none;}
+            .hero-role-wrap{justify-content: center;}
           .photo-frame, .photo-img { width: 220px; height: 220px; }
           .hero-btns { justify-content: center; }
           .hero-socials { justify-content: center; }
@@ -611,7 +613,7 @@ export default function Hero() {
             {/* Tagline */}
             <p className={`hero-tagline ${visible ? "anim-in" : ""}`}>
               Building <span>pixel-perfect</span>, blazing-fast web apps from{" "}
-              <span>Chennai</span>. MERN Stack · WordPress · SEO — delivering
+              <span>Chennai</span>. MERN Stack · WordPress · SEO delivering
               solutions that look great and perform even better.
             </p>
 

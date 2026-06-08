@@ -218,8 +218,8 @@ export default function About() {
           .about-award-badge { left:10px; }
         }
         @media (max-width:480px) {
-          .about-grid  { padding:0 20px; }
-          .about-stats { padding:0 20px; margin:48px 20px 0; }
+          .about-grid  { padding:0px; }
+          .about-stats { padding:0px; margin:48px 0px 0; }
           .about-details { grid-template-columns:1fr; }
         }
       `}</style>
@@ -266,7 +266,7 @@ export default function About() {
               I'm a <span className="hl">Full Stack Web Developer</span> with a
               passion for crafting scalable, user-centric applications. Currently
               working at <span className="hl">Shine Nexa Technology</span>,
-              Chennai — building responsive websites using{" "}
+              Chennai building responsive websites using{" "}
               <span className="hl">MERN Stack, WordPress & SEO</span>. I thrive
               on solving complex problems and continuously learning emerging
               technologies to deliver impactful digital solutions.
@@ -300,9 +300,9 @@ export default function About() {
 
         {/* Stats */}
         <div className={`about-stats ${statsInView ? "in" : ""}`} ref={statsRef}>
-          <StatItem target={8}  suffix="+" label="Live Projects"          inView={statsInView} />
+          <StatItem target={20}  suffix="+" label="Live Projects"          inView={statsInView} />
           <StatItem target={1}  suffix="+" label="Years Experience"       inView={statsInView} />
-          <StatItem target={10} suffix="+" label="Happy Clients"          inView={statsInView} />
+          <StatItem target={18} suffix="+" label="Happy Clients"          inView={statsInView} />
           <StatItem target={1}  suffix=""  label="Best Performance Medal" inView={statsInView} />
         </div>
       </section>
