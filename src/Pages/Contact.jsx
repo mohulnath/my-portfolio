@@ -314,6 +314,7 @@ export default function Contact() {
           font-weight:600;
         }
         @media (max-width:768px) {
+        .contact-section{padding: 40px 23px;}
           .ct-grid { grid-template-columns:1fr; gap:36px; padding:0px; }
           .ct-form-row { grid-template-columns:1fr; }
           .ct-footer { padding:28px 20px 0; }

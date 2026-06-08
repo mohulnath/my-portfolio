@@ -901,6 +901,7 @@ export default function Projects() {
           .ps-section { padding: 80px 0 80px; }
           .ps-bar { display: grid; grid-template-columns: 1fr 1fr; }
           .ps-item::after { display: none; }
+          .ps-inner { padding: 0 20px}
         }
       `}</style>
 

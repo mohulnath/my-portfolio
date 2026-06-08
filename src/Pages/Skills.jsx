@@ -413,7 +413,8 @@ export default function Skills() {
         }
         @media (max-width: 480px) {
           .sk-grid { grid-template-columns: 1fr; 
-    padding: 0px 30px;}
+    padding: 0px 0px;}
+    
         }
       `}</style>
 

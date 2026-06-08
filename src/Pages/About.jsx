@@ -221,7 +221,9 @@ export default function About() {
           .about-grid  { padding:0px; }
           .about-stats { padding:0px; margin:48px 0px 0; }
           .about-details { grid-template-columns:1fr; }
+          .about-section{padding: 40px 20px;}
         }
+
       `}</style>
 
       <section className="about-section" id="about" ref={sectionRef}>

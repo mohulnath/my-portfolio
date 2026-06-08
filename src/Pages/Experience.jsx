@@ -819,7 +819,7 @@ export default function ExperienceEducation() {
         /* Small phones */
         @media (max-width: 400px) {
           .ee-section {
-            padding: 22px 40px 30px;
+            padding: 22px 23px 30px;
           }
           .ee-tab {
             padding: 9px 14px;
