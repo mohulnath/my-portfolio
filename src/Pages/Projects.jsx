@@ -282,7 +282,7 @@ const PROJECTS = [
   {
     title: "Infinity TOIP",
     desc: "Telecom & IT solutions company website with service listings, technology showcase, client portfolio & lead generation contact forms.",
-    image: "/src/assets/Images/infinity.jpg",
+    // image: "/src/assets/Images/infinity.jpg",
     tags: ["WordPress", "CSS", "SEO", "Telecom"],
     category: "Client Work",
     color: "#06b6d4",
@@ -316,7 +316,7 @@ const PROJECTS = [
   {
     title: "Vizi Pavalan",
     desc: "Travel & exploration website for Vizi Pavalan with destination guides, travel stories, photo gallery & engaging content-rich WordPress design.",
-    image: "/src/assets/Images/vizipavalan.jpg",
+    // image: "/src/assets/Images/vizipavalan.jpg",
     tags: ["WordPress", "CSS", "SEO", "Travel"],
     category: "Client Work",
     color: "#22c55e",
