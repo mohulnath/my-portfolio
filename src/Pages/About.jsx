@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
+import Images from "../assets/Image";
+
 function useInView(threshold = 0.2) {
   const ref = useRef(null);
   const [inView, setInView] = useState(false);
@@ -240,7 +242,7 @@ export default function About() {
               <div className="bracket bracket-br" />
               <div className="about-photo-glow" />
               <img
-                src="/src/assets/Images/mohulnath_IMG.jpg"
+                src={Images.myimage}
                 alt="Mohulnath R"
                 className="about-photo"
               />

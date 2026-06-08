@@ -72,11 +72,11 @@ const PROJECTS = [
   {
     title: "Code99 IT Academy",
     desc: "Official React.js frontend for Code99 IT Academy — online course showcase, student stories & enrollment platform. Built as a 4-member team live project.",
-    image: "/src/assets/Images/code99.jpg",
+    image: images.Project27,
     tags: ["React.js", "JSX", "CSS"],
     category: "Frontend",
     color: "#6366f1",
-    live: "https://code99-mohulnath.netlify.app",
+    live: "https://code99-educational-website.netlify.app/",
     github: "https://github.com/mohulnath/code99-academy",
     featured: true,
   },
@@ -112,7 +112,7 @@ const PROJECTS = [
     color: "#ef4444",
     live: "https://srichakrahospital.in/",
     github: "",
-    featured: false,
+    featured: true,
   },
   {
     title: "Sangam Bone Hospital",
@@ -147,7 +147,7 @@ const PROJECTS = [
     color: "#6366f1",
     live: "https://shineedux.com/",
     github: "",
-    featured: false,
+    featured: true,
   },
 
   {
@@ -171,7 +171,7 @@ const PROJECTS = [
     color: "#f43f5e",
     live: "https://buvanwedsgirija.in/",
     github: "",
-    featured: false,
+    featured: true,
   },
 
   {

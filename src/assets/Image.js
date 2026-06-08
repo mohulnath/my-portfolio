@@ -26,6 +26,7 @@ import Project23 from './Images/Project23.jpg';
 import Project24 from './Images/Project24.jpg';
 import Project25 from './Images/Project25.jpg';
 import Project26 from './Images/Project26.webp';
+import Project27 from './Images/Project27.webp';
 
 import Toplogo from './Images/portfolio-logo.png';
 
@@ -59,6 +60,7 @@ const Images = {
   Project4,
   Project11,
   Toplogo,
+  Project27,
 };
 
 export default Images;

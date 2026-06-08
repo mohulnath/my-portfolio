@@ -96,7 +96,7 @@ export default function Navbar() {
   return (
     <>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+      
 
         :root {
           --c-bg:        #04060f;
@@ -108,8 +108,8 @@ export default function Navbar() {
           --c-glass:     rgba(8,10,28,0.72);
           --c-border:    rgba(255,255,255,0.07);
           --nav-h:       68px;
-          --font-display:'Syne', sans-serif;
-          --font-body:   'DM Sans', sans-serif;
+          --font-display:'Clash Display', sans-serif;
+          --font-body:   'Inter', sans-serif;
         }
 
         /* ─── Nav shell ─── */
@@ -470,7 +470,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="xlogo" onClick={() => handleNav("#home")}>
-          <span className="xlogo-text">Mohulnath</span>
+          <span className="xlogo-text"> Mohulnath </span>
           <span className="xlogo-dot">.</span>
         </div>
 
