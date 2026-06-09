@@ -15,23 +15,23 @@ import Contact     from "./Pages/Contact";
 
 
 function App() {
-  const [loaded, setLoaded] = useState(false);
+  const [loaded, setLoaded] = useState(true);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    window.scrollTo(0, 0);
+  //   window.scrollTo(0, 0);
   
-    document.body.style.overflow = "hidden";
+  //   document.body.style.overflow = "hidden";
   
-    setTimeout(() => {
+  //   setTimeout(() => {
   
-      document.body.style.overflow = "auto";
+  //     document.body.style.overflow = "auto";
   
-      window.scrollTo(0, 0);
+  //     window.scrollTo(0, 0);
   
-    }, 1800);
+  //   }, 1800);
   
-  }, []);
+  // }, []);
 
   return (
     <>
@@ -68,7 +68,7 @@ function App() {
       `}</style>
 
       {/* Preloader — shown until portfolio loads */}
-      <Preloader onDone={() => setLoaded(true)} />
+      {/* <Preloader onDone={() => setLoaded(true)} /> */}
 
       {/* Custom cursor */}
       {/* <CustomCursor /> */}
