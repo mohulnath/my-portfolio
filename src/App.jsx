@@ -74,7 +74,7 @@ function App() {
       {/* <CustomCursor /> */}
 
       {/* Scroll progress bar + back-to-top */}
-      {loaded && <ScrollProgressBar />}
+      {/* {loaded && <ScrollProgressBar />} */}
 
       {/* Main portfolio */}
       <Navbar />
