@@ -71,7 +71,7 @@ function App() {
       <Preloader onDone={() => setLoaded(true)} />
 
       {/* Custom cursor */}
-      <CustomCursor />
+      {/* <CustomCursor /> */}
 
       {/* Scroll progress bar + back-to-top */}
       {loaded && <ScrollProgressBar />}
